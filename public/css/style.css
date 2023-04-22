@@ -1,0 +1,173 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#btnConnexion {
+    background-color: #ffed00;
+    border-radius: 20px;
+    margin-top: 15px;
+    
+
+}
+#btnSuivre{
+    background-color: #ffed00;
+    border-radius: 20px;
+    border: 1px solid;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+#btnSuivre:hover{
+    background-color: black;
+    color:#ffed00;
+    border-radius: 20px;
+    border: 1px solid;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    
+}
+.text{
+    font-size: 16px;
+
+
+}
+
+.margintop{
+    margin-top:15px;
+}
+
+.btncompte{
+    text-decoration: none;
+    color: black;
+    font-family: Arial,sans-serif ;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #EFEFEE;
+    overflow: hidden;
+    z-index: 0;
+    position: relative;
+    border-radius: 20px;
+
+}
+
+.btncompte::before{
+    content: '';
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #EFEFEE;
+    border-radius: 50% 50% 0 0;
+    transition: all .5s;
+    z-index: -1;
+    color: black;
+
+}
+
+.btncompte:hover::before{
+    top: 0;
+    border-radius: 0;
+    color: black;
+}
+.btncompte:hover{
+    color: black;
+}
+
+#btnConnexion:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+    background-color: #1D1D1B ;
+    color: #FFED00;
+}
+
+#PanierLink {
+                            
+    position: absolute;
+    right: 100px;
+    
+}
+#PanierImg {
+    width: 20px;
+    height: 20px;
+}
+#FavLink {
+                            
+    position: absolute;
+    right: 180px;
+    
+}
+#FavImg {
+    width: 20px;
+    height: 20px;
+}
+.nav-link:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+
+}
+#TrocLogo:hover{
+    transform: scale(1.03);
+}
+
+footer {
+    background-color: #1D1D1B;
+    color: #FFED00;
+    padding: 5px;
+    text-align: center;
+    /* make always at the botom of the page web */
+
+    width: 100%;
+
+
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+/* .container {
+    align-self: stretch;
+    align-content: stretch;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: 0;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+} */
+
+.helpModal {
+    font-size: 30px !important;
+}

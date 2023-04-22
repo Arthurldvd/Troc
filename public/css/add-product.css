@@ -1,0 +1,25 @@
+.dragAndDrop {
+    display: flex;
+    height: 200px;
+}
+
+#drop-zone {
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffed00;
+    border: 2px dashed;
+    font-weight: bold;
+}
+
+#drop-zone.hover {
+    background-color: #00ff1a;
+}
+
+.uploaded-image img {
+    width: 200px;
+    height: 200px;
+}   

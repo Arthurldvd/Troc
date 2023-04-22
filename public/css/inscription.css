@@ -1,0 +1,65 @@
+.bg{
+    background-color:#F7F7F6;
+    margin-left: 5vh;
+    margin-right: 50vh;
+    margin-bottom: 4vh;
+    
+}
+.champ{
+    width: 50vh;
+    padding-left: 5%;
+}
+
+.title{
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.title3{
+    text-align: center;
+}
+
+.btnSave{
+    background-color: #FFED00;
+    color: black;
+    border-color: #FFED00;
+    font-weight: bold;
+    border-radius: 50cm;
+    width: 200px;
+    
+    
+}
+
+.btnSave:hover{
+    background-color: #1D1D1B ;
+    color: #FFED00;
+
+}
+
+.hide{
+    color:#F7F7F6 ;
+}
+
+input[type="radio"]:checked{
+   border-color: #FFED00;
+   border-width: 2px;
+   background: black;
+  
+   
+   
+}
+
+
+h3{
+    font-weight: bold;
+}
+
+.bg label{
+    color: #767676;
+    font-style: italic;
+}
+
+
+.obligatoire{
+    color: red  !important;
+}

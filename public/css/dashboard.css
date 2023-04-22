@@ -1,0 +1,49 @@
+.bg{
+    background-color:#F7F7F6;
+    margin-left: 5vh;
+    margin-right: 50vh;
+    margin-bottom: 4vh;
+    
+}
+
+.titre{
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+h3{
+    margin-left: 10vh;
+    font-weight: bold;
+}
+
+.btnsave{
+    background-color: #FFED00;
+    color: black;
+    border-color: #FFED00;
+    font-weight: bold;
+    border-radius: 50cm;
+    width: 200px;
+    
+    
+}
+
+.btnsave:hover{
+    background-color: #1D1D1B ;
+    color: #FFED00;
+
+}
+
+.t{
+    float: left;
+    margin-left: 1%;
+}
+
+.champ{
+    width: 50vh;
+    padding-left: 5%;
+}
+
+.obligatoire{
+    color: red  !important;
+}
+

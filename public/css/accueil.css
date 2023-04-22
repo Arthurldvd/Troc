@@ -1,0 +1,22 @@
+.card-img-top {
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+.card {
+    width: 20%;
+    margin: 1vh;
+}
+
+.col-4 {
+    height: 50%;
+    width: 50%;
+    flex-direction: row;
+    display: flex;
+}
+
+#discover {
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}

@@ -1,0 +1,3 @@
+<div>
+    Paiement accepté
+</div>
